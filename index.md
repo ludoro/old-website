@@ -7,7 +7,7 @@ I am Ludovico, I am currently working as a Software engineer - Machine learning 
 In the past, before graduating with a MSc in Applied mathematics, I have interned all over Europe at: CERN, VolvoCars, Alan turing institute and ClearBox. I have also partecipated in the "Google summer of code" framework, where I developed a new open source library called "Surrogates.jl" for the Julia - scientific machine learning community. 
 
 # What's this website about? 
-In this website, I will be mainly hosting the following resources: 
+In this website, I will be hosting the following resources: 
 - How to [pass coding interviews](/Algos.html)
 - How to pass [pass system design and ML system design](./SysDesign.html)
 - [reviews of ML papers](./ML.html), mainly about Scientific Machine learning and industry related ML papers from well known companies. 
