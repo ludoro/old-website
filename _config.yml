@@ -1,0 +1,25 @@
+title: Ludovico Bessi
+logo: /assets/img/personal.png
+email: ludovicobessi@gmail.com
+description: ML engineer @Google
+favicon: true
+show_downloads: false
+#google_analytics: UA-108144808-1
+remote_theme: BDHU/minimalist
+color-scheme: light
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-remote-theme
+
+sidebar:
+  - name: GitHub
+    icon: fa-brands fa-github
+    link: https://github.com/ludoro
+  - name: Twitter
+    icon: fa-brands fa-twitter
+    link: https://twitter.com/bessi_ludovico
+  - name: Blog
+    icon: fa-solid fa-pen
+    link: https://ludoro.github.io/blog/
