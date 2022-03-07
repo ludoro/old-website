@@ -3,7 +3,7 @@ layout: default
 ---
 
 # ML resources
-I have decided to focus on 5 different macroareas: Computer vision, Reinforcement learning, Scientific machine learning, Geometric deep learning, Natural language processing.
+I have decided to focus on 6 different macroareas: Computer vision, Reinforcement learning, Scientific machine learning, Geometric deep learning, Natural language processing and Probabilistic machine learning.
 I will list learning resources / code snippets as I am studying them myself. Some topics that I will study are shared between sections (e.g. Transformers). 
 
 ## Computer vision
@@ -38,6 +38,13 @@ I will list learning resources / code snippets as I am studying them myself. Som
 
 
 ## Natural language processing
+
+### Theory
+
+
+### Code
+
+## Probabilistic machine learning
 
 ### Theory
 

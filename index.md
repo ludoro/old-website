@@ -16,7 +16,7 @@ In this website, I will be writing about:
 - My coding interview preparation: [passing coding interviews](https://hollow-wood-560.notion.site/Coding-questions-FAANG-prep-9cdf280e5f30425fa188cbbaa6d1998c)
 - My (ML) System design preparation: [passing (ML) system design](./systems/SysDesign.html)
 - [ML in industry](./ML_papers/ML.html), mainly describing company blog posts related to Applied ML and MLOps.
-- [My learning path for ML](/ML_resources/ML.html), divided in roughly 5 macro areas: 
+- [My learning path for ML](/ML_resources/ML.html), divided in roughly 6 macro areas: Computer vision, Reinforcement learning, Scientific machine learning, Geometric deep learning, Natural language processing and Probabilistic machine learning,
 - [Probability riddles](./Prob/probability.html). Once upon a time, I was an Applied mathematician who wanted to go into quant research and probability is my favourite area of Mathematics. I still really like probability! 
 
 All this resources are mainly for my own learning, but I figured It'd be good to share them in the public. In this way, I have something to keep myself in check and I can get some nice discussions going with interesting people. 
