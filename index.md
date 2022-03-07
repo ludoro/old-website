@@ -1,16 +1,23 @@
 ---
 layout: default
 ---
+
+
+# [ML resources](/ML_resources/ML.html) - [Coding interviews](https://hollow-wood-560.notion.site/Coding-questions-FAANG-prep-9cdf280e5f30425fa188cbbaa6d1998c) - [System design interviews](./systems/SysDesign.html) - [Probability riddles](./Prob/probability.html) - [ML in industry](./ML_papers/ML.html)
 # Who am I?
-Hey! 
+Hey!
 I am Ludovico, I am currently working as a Software engineer - Machine learning at Google Zurich. I am developing ML models to defend gmail users: It's pretty cool! 
-In the past, before graduating with a MSc in Applied mathematics, I have interned all over Europe at: CERN, VolvoCars, Alan turing institute and ClearBox. I have also partecipated in the "Google summer of code" framework, where I developed a new open source library called "Surrogates.jl" for the Julia - scientific machine learning community. 
+In the past, before graduating with a MSc in Applied mathematics, I have interned all over Europe at: CERN, VolvoCars, Alan turing institute and ClearBox. 
+
+I have also partecipated in the "Google summer of code" framework, where I developed a new open source library called "Surrogates.jl" for the Julia - scientific machine learning community. I am a strong believer in open source software and I plan to get back to it sooner or later. :)
 
 # What's this website about? 
-In this website, I will be hosting the following resources: 
-- How to [pass coding interviews](/Algos.html)
-- How to pass [pass system design and ML system design](./SysDesign.html)
-- [reviews of ML papers](./ML.html), mainly about Scientific Machine learning and industry related ML papers from well known companies. 
+In this website, I will be writing about: 
+- My coding interview preparation: [passing coding interviews](https://hollow-wood-560.notion.site/Coding-questions-FAANG-prep-9cdf280e5f30425fa188cbbaa6d1998c)
+- My (ML) System design preparation: [passing (ML) system design](./systems/SysDesign.html)
+- [ML in industry](./ML_papers/ML.html), mainly describing company blog posts related to Applied ML and MLOps.
+- [My learning path for ML](/ML_resources/ML.html), divided in roughly 5 macro areas: 
+- [Probability riddles](./Prob/probability.html). Once upon a time, I was an Applied mathematician who wanted to go into quant research and probability is my favourite area of Mathematics. I still really like probability! 
 
 All this resources are mainly for my own learning, but I figured It'd be good to share them in the public. In this way, I have something to keep myself in check and I can get some nice discussions going with interesting people. 
 

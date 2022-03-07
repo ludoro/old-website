@@ -2,6 +2,6 @@
 layout: default
 ---
 
-# Reviewing ML paperes
+# ML in industry
 
 Work in progress

@@ -239,5 +239,4 @@ footer { display: none; }
 
 .popup .content { padding-right: 20px; max-height: 30%; overflow: auto; font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-@media screen and (max-width: 700px) { .box { width: 70%; }
-  .popup { width: 70%; } }
+body { max-width: 700px; padding: 12px; padding-bottom: 0; }
