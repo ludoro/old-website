@@ -37,24 +37,20 @@ h3, h4, h5, h6 {
 
 a {
   //color:var(--clr-a-text);
-  color: var(--code-990000);
-  text-decoration:none;
+  color: var(--code-009999);
+  text-decoration:wavy;
 }
 
-a:hover, a:focus {
-  color: var(--clr-a-text-hvr);
+a:hover {
+  color: var(--code-009999);
+  text-decoration:underline;
+}
+a:focus{
+  color: var(--code-009999);
+  text-decoration:underline;
 }
 
-a small {
-  font-size:11px;
-  color:var(--clr-small-in-a);
-  margin-top:-0.3em;
-  display:block;
-}
 
-a:hover small {
-  color:var(--clr-small-in-a);
-}
 
 // added
 p.link {

@@ -134,7 +134,7 @@ clr -> color
 bg -> background
 hvr -> hover
 */
-:root { --code-d14: #d14; --code-aa0000: #aa0000; --code-990000: #990000; --code-009999: #009999; --code-008080: #008080; --code-3c5d5d: #3c5d5d; --code-009926: #009926; --code-990073: #990073; --code-800080: #800080; --code-445588: #445588; --code-000080: #000080; --code-aaaaaa: #aaaaaa; --code-999999: #999999; --code-888888: #888888; --code-555555: #555555; --code-000000: #000000; }
+:root { --code-d14: #d14; --code-aa0000: #aa0000; --code-990000: #990000; --code-009999: #009999; --code-008080: #008080; --code-3c5d5d: #3c5d5d; --code-009926: #009926; --code-990073: #990073; --code-800080: #800080; --code-445588: #445588; --code-000080: #000080; --code-aaaaaa: #aaaaaa; --code-999999: #999999; --code-888888: #888888; --code-555555: #555555; --code-000000: #000000; --code-009999: #009999; }
 
 body { background-color: var(--clr-bg); padding: 50px; font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: var(--code-000000); font-weight: 400; }
 
@@ -150,13 +150,11 @@ h2 { color: var(--clr-h2); }
 
 h3, h4, h5, h6 { color: var(--clr-h-3-6); }
 
-a { color: var(--code-990000); text-decoration: none; }
+a { color: var(--code-009999); text-decoration: wavy; }
 
-a:hover, a:focus { color: var(--clr-a-text-hvr); }
+a:hover { color: var(--code-009999); text-decoration: underline; }
 
-a small { font-size: 11px; color: var(--clr-small-in-a); margin-top: -0.3em; display: block; }
-
-a:hover small { color: var(--clr-small-in-a); }
+a:focus { color: var(--code-009999); text-decoration: underline; }
 
 p.link { margin: 0 0 4px; }
 
