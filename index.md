@@ -4,7 +4,7 @@ layout: default
 
 
 # [ML resources](/ML_resources/ML.html) - [Coding interviews](https://hollow-wood-560.notion.site/Coding-questions-FAANG-prep-9cdf280e5f30425fa188cbbaa6d1998c) - [System design interviews](./systems/SysDesign.html) - [Probability riddles](./Prob/probability.html) - [ML in industry](./ML_papers/ML.html)
-# Who am I?
+
 Hey!
 I am Ludovico, I am currently working as a Software engineer - Machine learning at Google Zurich. I am developing ML models to defend gmail users: It's pretty cool! 
 In the past, before graduating with a MSc in Applied mathematics, I have interned all over Europe at: CERN, VolvoCars, Alan turing institute and ClearBox. 

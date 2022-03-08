@@ -8,6 +8,7 @@ google_analytics: G-TQDGWRYGPQ
 #google_analytics: UA-108144808-1
 remote_theme: BDHU/minimalist
 color-scheme: light
+use_math: true
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

@@ -134,11 +134,11 @@ clr -> color
 bg -> background
 hvr -> hover
 */
-:root { --code-d14: #d14; --code-aa0000: #aa0000; --code-990000: #990000; --code-009999: #009999; --code-008080: #008080; --code-3c5d5d: #3c5d5d; --code-009926: #009926; --code-990073: #990073; --code-800080: #800080; --code-445588: #445588; --code-000080: #000080; --code-aaaaaa: #aaaaaa; --code-999999: #999999; --code-888888: #888888; --code-555555: #555555; }
+:root { --code-d14: #d14; --code-aa0000: #aa0000; --code-990000: #990000; --code-009999: #009999; --code-008080: #008080; --code-3c5d5d: #3c5d5d; --code-009926: #009926; --code-990073: #990073; --code-800080: #800080; --code-445588: #445588; --code-000080: #000080; --code-aaaaaa: #aaaaaa; --code-999999: #999999; --code-888888: #888888; --code-555555: #555555; --code-000000: #000000; }
 
-body { background-color: var(--clr-bg); padding: 50px; font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: var(--clr-text); font-weight: 400; }
+body { background-color: var(--clr-bg); padding: 50px; font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: var(--code-000000); font-weight: 400; }
 
-h1, h2, h3, h4, h5, h6 { color: var(--clr-h1-and-bold); margin: 0 0 20px; }
+h1, h2, h3, h4, h5, h6 { color: var(--code-990000); margin: 0 0 20px; }
 
 p, ul, ol, table, pre, dl { margin: 0 0 20px; }
 
@@ -150,7 +150,7 @@ h2 { color: var(--clr-h2); }
 
 h3, h4, h5, h6 { color: var(--clr-h-3-6); }
 
-a { color: var(--clr-a-text); text-decoration: none; }
+a { color: var(--code-990000); text-decoration: none; }
 
 a:hover, a:focus { color: var(--clr-a-text-hvr); }
 

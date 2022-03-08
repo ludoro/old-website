@@ -6,12 +6,12 @@ body {
   background-color: var(--clr-bg);
   padding:50px;
   font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: var(--clr-text);
+  color: var(--code-000000);  // var(--clr-text);
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--clr-h1-and-bold);
+  color: var(--code-990000);//var(--clr-h1-and-bold);
   margin:0 0 20px;
 }
 
@@ -36,7 +36,8 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:var(--clr-a-text);
+  //color:var(--clr-a-text);
+  color: var(--code-990000);
   text-decoration:none;
 }
 
