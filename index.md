@@ -30,11 +30,4 @@ If you want to stay updated about all the content that's coming out, feel free t
 You can expect around one email per month with a review of everything I publish here and in my blog.  
 
 
-# Mentoring
-I have had the luck to have really good mentors throughout my career and I know first hand the difference they made. As a way of giving back, I have also started to mentor with moderate success. If you are interested, click below:
-
-<p align="center">
-<a href="https://mentorcruise.com/mentor/LudovicoBessi2/"> <img src="https://cdn.mentorcruise.com/img/banner/fire-sm.svg" width="240" alt="MentorCruise"> </a>
-</p>
-
 
