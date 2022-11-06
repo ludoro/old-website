@@ -21,7 +21,7 @@ In this website, I will be writing about:
 - Coding interview resources: [passing coding interviews](./coding/codingInterviews.html)
 
 - System desisgn resources:
-    - [System design, theory and examples](./systems/SysDesign/SysDesign.html)
+    - [System design: theory and examples](./systems/SysDesign/SysDesign.html)
     - [ML system design: theory and examples](./systems/MLSysDesign/SysDesign.html)
 
 - How companies around the world use ML to solve problems: [ML in industry](./ML_papers/ML.html)
@@ -30,18 +30,6 @@ In this website, I will be writing about:
     - [Probabilistic machine learning](./PML/pml1.html)
     - [Geometric deep learning](./Geometric/geo1.html)
     - [Scientific machine learning](./SCIML/sciml1.html)
-
-- Finance topics:
-    - [Discrete Markov chains, an introduction](./finance/dchain.html)
-    - [Continuous Markov chains, an introduction](./finance/cchain.html)
-    - [Derivative pricing theory, an introduction](./finance/derpricing.html)
-    - [Portfolio theory, an introduction](./finance/portfolio.html)
-    - [Stochastic calculus, an introduction](./finance/calcstoch.html)
-    - [Models in Quantitative finance](./finance/finance1.html)
-
-- Economics topics:
-    - [Dynamic programming applied to economics](./eco/DP_eco/DP1.html)
-    - [Multiple agents in Economics](./eco/Agents/Agents1.html)
 
 - Topics that I like that don't fit under a particular umbrella:
     - [Algorithms for optimization](./misc/AlgoOpt/algo1.html)
