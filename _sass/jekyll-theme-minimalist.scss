@@ -5,7 +5,7 @@
 body {
   background-color: var(--clr-bg);
   padding:50px;
-  font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 20px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--code-000000);  // var(--clr-text);
   font-weight:400;
 }
@@ -146,6 +146,7 @@ kbd {
   flex-direction: column;
   justify-content: space-between;
   height: calc(100vh - 108px);
+  font-size: 20px;
   overflow-x: hidden;
   overflow-y: scroll;
   -ms-overflow-style: -ms-autohiding-scrollbar; // IE10+
@@ -171,7 +172,7 @@ strong {
 }
 
 section {
-  width: 1000px;
+  width: 1200px;
   float:inline-start;
   padding-bottom:30px;
   padding-left: 300px;
