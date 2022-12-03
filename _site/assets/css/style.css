@@ -191,7 +191,7 @@ kbd { background-color: var(--clr-kbd-bg); border: 1px solid var(--clr-kbd-borde
 
 strong { color: var(--clr-h1-and-bold); font-weight: 700; }
 
-section { width: 610px; float: right; padding-bottom: 30px; }
+section { width: 1000px; float: inline-start; padding-bottom: 30px; padding-left: 300px; }
 
 small { font-size: 11px; }
 
