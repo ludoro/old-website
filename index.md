@@ -58,18 +58,6 @@ You can expect around one email per month with a review of everything I publish 
 
 ## Math, Probability and statistical riddles: ace your next quant interview! (DRAFT)
 
-![alt text](./assets/img/QUANT_IMAGE.jpg)
-<p align="center">
-🚨🚨🚨
-<a href="https://buy.stripe.com/8wM01S29BcFWaPecMN">Not yet available!!</a> 🚨🚨🚨
-</p>
+The draft: [get the PDF]({{ site.url }}/assets/math-prob-stat.pdf)
 
-Once upon a time, I wanted to work as a quantitative researcher in a hedge fund, so I practiced a lot of probability riddles commonly asked in those interviews. Turns out, I like riddles a lot, so it has been a fun journey.
 
-In the end, I did not go for a quant career, but from time to time I still enjoy solving some riddles related to probability. 
-
-I decided to write this little book containing all the questions I have solved with solutions, for two reasons:
-1. I like writing math symbols
-2. I see a gap in this space: many books are quite outdated and I find the solutions provided lacking.
-3. I ❤️ math riddles! 
-If you want to see a preview of the book, you can find it [here](./books/quant.html)
