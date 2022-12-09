@@ -58,6 +58,5 @@ You can expect around one email per month with a review of everything I publish 
 
 ## Math, Probability and statistical riddles: ace your next quant interview! (DRAFT)
 
-The draft: [get the PDF]({{ site.url }}/assets/math-prob-stat.pdf)
-
+The draft [here](https://ludoro.github.io/assets/mybook.pdf)
 
