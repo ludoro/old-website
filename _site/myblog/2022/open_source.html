@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Blog | Ludovico Bessi</title>
+<title>Introduction - my open source path | Ludovico Bessi</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Blog" />
+<meta property="og:title" content="Introduction - my open source path" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="ML engineer @Google" />
 <meta property="og:description" content="ML engineer @Google" />
@@ -19,13 +19,13 @@
 <meta property="og:url" content="http://localhost:4000/myblog/2022/open_source.html" />
 <meta property="og:site_name" content="Ludovico Bessi" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Blog" />
+<meta property="twitter:title" content="Introduction - my open source path" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/myblog/2022/open_source.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/personal.png"}},"headline":"Blog","description":"ML engineer @Google","@type":"WebPage","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/myblog/2022/open_source.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/personal.png"}},"headline":"Introduction - my open source path","description":"ML engineer @Google","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/colors-light.css?v=122c23eff7e607206088b3aa49c3cdd6bc82edb7">
-    <link rel="stylesheet" href="/assets/css/style.css?v=122c23eff7e607206088b3aa49c3cdd6bc82edb7">
+    <link rel="stylesheet" href="/assets/css/colors-light.css?v=37384160500330fae9d4861f1a6c8cc669019b42">
+    <link rel="stylesheet" href="/assets/css/style.css?v=37384160500330fae9d4861f1a6c8cc669019b42">
 
     <link rel="preload" href="/assets/img/personal.png" as="image">
     <!--[if lt IE 9]>
@@ -137,11 +137,88 @@
         </ul>
       </nav>
 
-      <h1 id="blog">Blog</h1>
+      <h1 id="introduction---my-open-source-path-">Introduction - my open source path <a id="intro"></a></h1>
 
-<h2 id="2023-posts">2023 Posts</h2>
+<p>Today I want to write about my open source contributions and why 
+I think it was the turning point in my software career.</p>
 
-<h2 id="2022-posts">2022 Posts</h2>
+<p>It was December 2017, I was in my second year of my undergraduate degree in Applied mathematics taking a C++ course. The final evaluation consisted in a <a href="https://github.com/ludoro/Matlab_project">huge team project</a> related to 3D geometry and intersecating objects.</p>
+
+<p>While working on it, I started to realize how much I liked writing software, as opposed to studying theoretical math. At that time, I was day dreaming about doing Applied math research. Then, I told myself I could combing my math skills with my newly found coding hobby.</p>
+
+<p>Still, I was painfully aware that the academia career is a really hard one that does not pay off most of the times, so I started working towards an alternative plan: why not use math and software in industry? I realized that I neede to showcase my coding abilities if I wanted to do that, and a silly undocumented 3D geometry project might not be enough.</p>
+
+<p>I was too scared (read: underprepared) to apply to big tech internships, so I had to find something else that could still be combined with my studies. 
+On reddit, I read about the “Google summer of code” (GSOC) program. It seemed the perfect fit!</p>
+
+<p>I also found a really interesting project related to speeding up matrix computations using C++. Withouth knowing any better, I started writing my proposal and I submitted it.
+Unfortunately, I was rejected 💔! 
+In hindsight, this is really not surprising:</p>
+<ul>
+  <li>I did not interact with the open source community to check what I should be focusing on ❌</li>
+  <li>I did not write a single Pull request (PR) for the project ❌</li>
+</ul>
+
+<p>Who in their right mind would have taken me on?</p>
+
+<p>I started investigating the hidden tips and tricks needed to increase my chances next year.</p>
+
+<p>December 2018 comes around, this time I knew how to play the game a little better. I chose “Julia programming language” as a project (v0.7, how time flies). It seemed a really promising language, suited for a wannabe Applied mathemtician. I knew this was it!</p>
+
+<p>I was interested in a project concerned surrogate models to approximate expensive solutions of differential equations. They required math, optimization techniques and numerical computing knowledge. It was the perfect fit for me!</p>
+
+<ul>
+  <li>I started chatting with Chris Rackauckas, the mentor for the project to ask for directions and tips. ✅</li>
+  <li>I started writing code showcasing early features of the future library ✅</li>
+</ul>
+
+<p>I applied again. This time, I felt more confident about my chances!
+Again, I was rejected! 💔💔</p>
+
+<p>This time, I was really down.</p>
+
+<p>I was on the phone with my girlfriend venting about this, when I got an email from the Julia organization:</p>
+
+<p><img src="/images/avikEmail.png" alt="" /></p>
+
+<p>I will always remember that evening! Julia was willing to sponsor me with their own funds because they did not get the number of slots they hoped for in the GSOC. I still feel grateful to this day.</p>
+
+<p>I have worked on <a href="https://github.com/SciML/Surrogates.jl">Surrogates.jl</a> that summer and in the next summer under the “Google summer of code” and in my own free time as well. Thanks to this experiences, I got my internship at the Alan turing institute, still using Julia.</p>
+
+<h1 id="why-is-open-source-experience-so-valuable-for-students-">Why is open source experience so valuable for students? <a id="back"></a></h1>
+
+<p>The common advice for students that want to bulk up their CV for applications is to do <em>projects</em>. This is fine advice, but most of the time the project is not that impressive or, worse, a slight variation of some tutorial. In such cases, It becomes hard to differentiate yourself from other applicants. Moreover, these projects do not usually have any users, It’s just a github repository with some README.md description.</p>
+
+<p>Having an open source project is a totally different story.</p>
+
+<p>You have users: documenting software is as important as writing it. ✅</p>
+
+<p>You must write tests to avoid nasty bugs. ✅</p>
+
+<p>You are collaborating with other developers working alongside you on the library. ✅</p>
+
+<p>This is as close as it gest to a real SWE job! If you like working on open source projects with other people, there is a good chance you are going to like your career as a SWE. This was especially important to me coming from an Applied Mathematics background: I needed to make sure this is something I enjoy doing!</p>
+
+<h1 id="final-thoughts">Final thoughts<a id="final"></a></h1>
+
+<p>It is my hope that this post convinced eager students craving real work experience to start working on open source software. There are many opportunities in the space, namely:</p>
+<ul>
+  <li>Google summer of code</li>
+  <li>Google Season of Docs</li>
+  <li>MHL Fellowship</li>
+  <li>NumFocus grants</li>
+  <li>Linux Kernel Mentorship Program</li>
+  <li>GirlScript Summer of Code</li>
+  <li>RailsGirls summer of code</li>
+  <li>Outreachy</li>
+  <li>Open Summer of Code</li>
+</ul>
+
+<p>The key is to pick an organization within this frameworks that aligns closely with your interests, so you can produce your best work!</p>
+
+<p>Feel free to message me if you need some sort of guidance to make the process less intimidating!</p>
+
+<p>Ludo</p>
 
 
 

@@ -46,7 +46,6 @@ All this resources are mainly for my own learning, but I figured It'd be good to
 
 # Blog 
 I really like writing, so I will keep a little [blog](./myblog/start_page.html) where I discuss everythig about my career, and where I will write updates about all the cool things I will be learning!
-I really like writing, so I will keep a little [blog] where I discuss everythig about my career, and where I will write updates about all the cool things I will be learning!
 If you want to stay updated about all the content that's coming out, feel free to subscribe to my newsletter:
 <p align="center">
 <iframe src="https://machinelearningatscale.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
