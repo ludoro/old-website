@@ -53,10 +53,3 @@ If you want to stay updated about all the content that's coming out, feel free t
 
 You can expect around one email per month with a review of everything I publish here and in my blog.  
 
-
-# Books that I am writing 
-
-## Math, Probability and statistical riddles: ace your next quant interview! (DRAFT)
-
-The draft [here](https://ludoro.github.io/assets/mybook.pdf)
-
