@@ -10,10 +10,10 @@
 <loc>http://localhost:4000/ML_papers/ML.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/systems/SysDesign/SysDesign.html</loc>
+<loc>http://localhost:4000/systems/MLSysDesign/SysDesign.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/systems/MLSysDesign/SysDesign.html</loc>
+<loc>http://localhost:4000/systems/SysDesign/SysDesign.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/misc/AlgoDec/algo1.html</loc>
@@ -52,6 +52,12 @@
 <loc>http://localhost:4000/misc/MonteCarlo/montecarlo1.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/myblog/2022/new_grad.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/myblog/2022/open_source.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/PML/pml1.html</loc>
 </url>
 <url>
@@ -67,7 +73,7 @@
 <loc>http://localhost:4000/SCIML/sciml1.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/blog/start_page.html</loc>
+<loc>http://localhost:4000/myblog/start_page.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/misc/Transformer/trans1.html</loc>

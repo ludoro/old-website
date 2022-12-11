@@ -45,7 +45,7 @@ In this website, I will be writing about:
 All this resources are mainly for my own learning, but I figured It'd be good to share them in the public. In this way, I have something to keep myself in check and I can get some nice discussions going with interesting people. 
 
 # Blog 
-I really like writing, so I will keep a little [blog](./blog/start_page.html) where I discuss everythig about my career, and where I will write updates about all the cool things I will be learning!
+I really like writing, so I will keep a little [blog](./myblog/start_page.html) where I discuss everythig about my career, and where I will write updates about all the cool things I will be learning!
 I really like writing, so I will keep a little [blog] where I discuss everythig about my career, and where I will write updates about all the cool things I will be learning!
 If you want to stay updated about all the content that's coming out, feel free to subscribe to my newsletter:
 <p align="center">
