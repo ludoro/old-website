@@ -22,34 +22,30 @@ In this website, I will be writing about:
 
 - System desisgn resources:
     - [System design: theory and examples](./systems/SysDesign/SysDesign.html)
-    - [ML system design: theory and examples](./systems/MLSysDesign/SysDesign.html)
 
-- How companies around the world use ML to solve problems: [ML in industry](./ML_papers/ML.html)
-
-- Learning Machine Learning: 
-    - [Probabilistic machine learning](./PML/pml1.html)
+- Machine Learning notes: 
+    - [Computer vision](./PML/pml1.html)
     - [Geometric deep learning](./Geometric/geo1.html)
     - [Scientific machine learning](./SCIML/sciml1.html)
 
 - Topics that I like that don't fit under a particular umbrella:
     - [Algorithms for optimization](./misc/AlgoOpt/algo1.html)
     - [Algorithms for decision making](./misc/AlgoDec/algo1.html)
-    - [Uncertainty](./misc/Uncertain/uncertain1.html)
-    - [Kalman filter](./misc/Kalman/kalman1.html)
-    - [All things Monte-carlo](./misc/MonteCarlo/montecarlo1.html)
-    - [Transformer architecture](./misc/Transformer/trans1.html)
     - [Algorithmic game theory](./misc/AlgoGMT/algoGMT.html)
 
 
 
 All this resources are mainly for my own learning, but I figured It'd be good to share them in the public. In this way, I have something to keep myself in check and I can get some nice discussions going with interesting people. 
 
-# Blog 
-I really like writing, so I will keep a little [blog](./myblog/start_page.html) where I discuss everythig about my career, and where I will write updates about all the cool things I will be learning!
-If you want to stay updated about all the content that's coming out, feel free to subscribe to my newsletter:
+# Machine learning at scale
+I started a newsletter called [Machine learning at scale](www.machinelearningatscale.com) where I discuss how Machine learning systems are used in the real world.
+
 <p align="center">
-<iframe src="https://machinelearningatscale.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://www.machinelearningatscale.com/#/portal/signup/free" width="600" height="600" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 </p>
 
-You can expect around one email per month with a review of everything I publish here and in my blog.  
+# Blog 
+I really like writing, so I will keep a little [blog](./myblog/start_page.html) where I discuss everythig about my career, and where I will write updates about all the cool things I will be learning!
+
+
 
