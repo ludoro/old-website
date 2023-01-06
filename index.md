@@ -21,18 +21,12 @@ In this website, I will be writing about:
 - Coding interview resources: [passing coding interviews](./coding/codingInterviews.html)
 
 - System desisgn resources:
-    - [System design: theory and examples](./systems/SysDesign/SysDesign.html)
+    - [Grokking the system design course notes](./systems/SysDesign/SysDesign.html)
+    - [Design data intensive applications notes](./systems/SysDesign/DDIA.html)
+    - [Building microservices: Designing fine-grained systems notes](./systems/SysDesign/Microservices.html)
 
 - Machine Learning notes: 
-    - [Computer vision](./PML/pml1.html)
     - [Geometric deep learning](./Geometric/geo1.html)
-    - [Scientific machine learning](./SCIML/sciml1.html)
-
-- Topics that I like that don't fit under a particular umbrella:
-    - [Algorithms for optimization](./misc/AlgoOpt/algo1.html)
-    - [Algorithms for decision making](./misc/AlgoDec/algo1.html)
-    - [Algorithmic game theory](./misc/AlgoGMT/algoGMT.html)
-
 
 
 All this resources are mainly for my own learning, but I figured It'd be good to share them in the public. In this way, I have something to keep myself in check and I can get some nice discussions going with interesting people. 

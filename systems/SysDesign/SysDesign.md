@@ -6,5 +6,8 @@ layout: default
 
 ## Theory
 
+- List of patterns
+
 
 ## Examples
+- List of examples
