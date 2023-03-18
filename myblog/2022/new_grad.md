@@ -166,7 +166,7 @@ It was as follows:
 - Recruiter screen with some short and easy technical questions
 - Technical screen 
 - Virtual onsite (two days):
-    - Behvarial
+    - Behavioral
     - Technical interview
     - Technical interview  
     - Technical interview

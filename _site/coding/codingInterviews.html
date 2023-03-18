@@ -24,8 +24,8 @@
 {"url":"http://localhost:4000/coding/codingInterviews.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/personal.png"}},"headline":"Coding interview preparation","description":"ML engineer @Google","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/colors-light.css?v=eb6e705f471983391443f5752c09a0294fe69046">
-    <link rel="stylesheet" href="/assets/css/style.css?v=eb6e705f471983391443f5752c09a0294fe69046">
+    <link rel="stylesheet" href="/assets/css/colors-light.css?v=5376c79b9d16845000e7d32fdeccdd831ca2483c">
+    <link rel="stylesheet" href="/assets/css/style.css?v=5376c79b9d16845000e7d32fdeccdd831ca2483c">
 
     <link rel="preload" href="/assets/img/personal.png" as="image">
     <!--[if lt IE 9]>
@@ -141,40 +141,158 @@
 
 <h2 id="table-of-contents">Table of Contents</h2>
 <ol>
-  <li><a href="#sliding">Sliding window</a></li>
-  <li><a href="#twop">Two pointers</a></li>
-  <li><a href="#fs">Fast &amp; Slow pointers</a></li>
-  <li><a href="#merge">Merge Intervals</a></li>
-  <li><a href="#cyclic">Cyclic Sort</a></li>
-  <li><a href="#ll">LinkedList reversal</a></li>
-  <li><a href="#bfs">BFS</a></li>
-  <li><a href="#dfs">DFS</a></li>
-  <li><a href="#2heaps">Two heaps</a></li>
-  <li><a href="#subsets">Subsets</a></li>
-  <li><a href="#binarysearch">Binary search</a></li>
-  <li><a href="#bitwiseXOR">Bitwise XOR</a></li>
-  <li><a href="#topk">Top K elements</a></li>
-  <li><a href="#kway">K-way merge</a></li>
-  <li><a href="#dp">Dynamic programming</a></li>
-  <li><a href="#top">Topological sort</a></li>
-  <li><a href="#misc">Miscellaneous</a></li>
+  <li><a href="#arrayhashing">Array and Hashing</a></li>
 </ol>
 
-<h2 id="sliding">Sliding window</h2>
-<h2 id="twop">Two pointers</h2>
-<h2 id="fs">Fast and slow pointers</h2>
-<h2 id="merge">Merge Intervals</h2>
-<h2 id="cyclic">Cyclic sort</h2>
-<h2 id="ll">LinkedList reversal</h2>
-<h2 id="bfs">BFS</h2>
-<h2 id="dfs">DFS</h2>
-<h2 id="subsets">Subsets</h2>
-<h2 id="bitwiseXOR">Bitwise XOR</h2>
-<h2 id="topk">Top K elements</h2>
-<h2 id="kway">K-way merge</h2>
-<h2 id="dp">Dynamic programming</h2>
-<h2 id="top">Topological sort</h2>
-<h2 id="misc">Miscellaneous</h2>
+<h2 id="arrayhashing">Array and Hashing</h2>
+
+<h3 id="1-contains-duplicate">1. Contains duplicate</h3>
+<p>Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">containsDuplicate</span><span class="p">(</span><span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="c1"># O(n) time, O(n) space
+</span>    <span class="n">mySet</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">nums</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">mySet</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">True</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">mySet</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+    <span class="k">return</span> <span class="bp">False</span>
+</code></pre></div></div>
+
+<h3 id="2-valid-anagram">2. Valid anagram</h3>
+<p>Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">isAnagram</span><span class="p">(</span><span class="n">s</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">t</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="n">lettersInS</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">letter</span> <span class="ow">in</span> <span class="n">s</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">letter</span> <span class="ow">in</span> <span class="n">lettersInS</span><span class="p">:</span>
+            <span class="n">lettersInS</span><span class="p">[</span><span class="n">letter</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">lettersInS</span><span class="p">[</span><span class="n">letter</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+    
+    <span class="c1"># Removing letters
+</span>    <span class="k">for</span> <span class="n">letter</span> <span class="ow">in</span> <span class="n">t</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">letter</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">lettersInS</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">False</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">lettersInS</span><span class="p">[</span><span class="n">letter</span><span class="p">]</span> <span class="o">-=</span> <span class="mi">1</span>
+    
+    <span class="c1"># Checking if letters are all 0.
+</span>    <span class="k">for</span> <span class="n">letter</span> <span class="ow">in</span> <span class="n">lettersInS</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">lettersInS</span><span class="p">[</span><span class="n">letter</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">False</span>
+    <span class="k">return</span> <span class="bp">True</span>
+</code></pre></div></div>
+
+<h3 id="3-replace-elements-with-greatest-element-on-right-side">3. Replace elements with greatest Element on right side</h3>
+<p>Given an array arr, replace every element in that array with the greatest element among the elements to its right, and replace the last element with -1.</p>
+
+<p>After doing so, return the array.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">replaceElements</span><span class="p">(</span><span class="n">arr</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]:</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[</span><span class="n">arr</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+    <span class="n">currentMax</span> <span class="o">=</span> <span class="n">arr</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">arr</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span> <span class="o">-</span> <span class="mi">2</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">currentVal</span> <span class="o">=</span> <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">arr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">currentMax</span>
+        <span class="n">currentMax</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">currentMax</span><span class="p">,</span> <span class="n">currentVal</span><span class="p">)</span>
+        <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">arr</span>
+</code></pre></div></div>
+
+<h3 id="4-is-subsequence">4. Is subsequence</h3>
+<p>Given two strings s and t, return true if s is a subsequence of t, or false otherwise.</p>
+
+<p>A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., “ace” is a subsequence of “abcde” while “aec” is not).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">isSubsequence</span><span class="p">(</span><span class="n">s</span><span class="p">:</span> <span class="n">string</span><span class="p">,</span> <span class="n">t</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]:</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="o">&gt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">t</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">False</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">s</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">t</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">False</span>
+    <span class="k">if</span> <span class="n">s</span> <span class="o">==</span> <span class="s">""</span> <span class="ow">and</span> <span class="n">t</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">True</span>
+    <span class="n">indexFirst</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">indexSecond</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">lengthFirst</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+    <span class="n">lengthSecond</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
+    <span class="k">while</span> <span class="n">indexFirst</span> <span class="o">&lt;</span> <span class="n">lengthFirst</span> <span class="ow">and</span> <span class="n">indexSecond</span> <span class="o">&lt;</span> <span class="n">lengthSecond</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">s</span><span class="p">[</span><span class="n">indexFirst</span><span class="p">]</span> <span class="o">==</span> <span class="n">t</span><span class="p">[</span><span class="n">indexSecond</span><span class="p">]:</span>
+            <span class="n">indexFirst</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">indexSecond</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">indexSecond</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">indexFirst</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+
+</code></pre></div></div>
+
+<h3 id="5-length-of-last-word">5. Length of last word</h3>
+<p>Given a string s consisting of words and spaces, return the length of the last word in the string.
+A word is a maximal substring consisting of non-space characters only.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">lengthOfLastWord</span><span class="p">(</span><span class="n">s</span><span class="p">:</span> <span class="n">string</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]:</span>
+    <span class="n">N</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="n">N</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="n">letterCounter</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">!=</span> <span class="s">' '</span> <span class="ow">and</span> <span class="n">letterCounter</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
+            <span class="k">pass</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">!=</span> <span class="s">' '</span><span class="p">):</span>
+            <span class="n">letterCounter</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s">' '</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">letterCounter</span>
+        <span class="n">i</span> <span class="o">-=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">letterCounter</span>
+</code></pre></div></div>
+
+<h3 id="6-two-sum">6. Two sum</h3>
+<p>Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You can return the answer in any order.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">twoSum</span><span class="p">(</span><span class="n">nums</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">],</span> <span class="n">target</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]:</span>
+    <span class="n">mapDiffIndex</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">num</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">nums</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">target</span> <span class="o">-</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">savingResults</span><span class="p">:</span>
+            <span class="k">return</span> <span class="p">[</span><span class="n">mapDiffIndex</span><span class="p">[</span><span class="n">target</span> <span class="o">-</span> <span class="n">num</span><span class="p">],</span> <span class="n">i</span><span class="p">]</span>
+        <span class="n">mapDiffIndex</span><span class="p">[</span><span class="n">num</span><span class="p">]</span> <span class="o">=</span> <span class="n">i</span>
+    <span class="k">return</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+</code></pre></div></div>
+<h3 id="7-longest-common-prefix">7. Longest Common Prefix</h3>
+<p>Write a function to find the longest common prefix string amongst an array of strings.</p>
+
+<p>If there is no common prefix, return an empty string “”.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">longestCommonPrefix</span><span class="p">(</span><span class="n">strs</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="c1"># Only care about two least words -&gt; sort
+</span>    <span class="n">strs</span><span class="p">.</span><span class="n">sort</span><span class="p">()</span>
+    <span class="n">firstWord</span> <span class="o">=</span> <span class="n">strs</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">lastWord</span> <span class="o">=</span> <span class="n">strs</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">index</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">index</span> <span class="o">&lt;</span> <span class="nb">min</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">firstWord</span><span class="p">),</span><span class="nb">len</span><span class="p">(</span><span class="n">lastWord</span><span class="p">)):</span>
+        <span class="k">if</span> <span class="n">firstWord</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">!=</span> <span class="n">lastWord</span><span class="p">[</span><span class="n">index</span><span class="p">]:</span>
+            <span class="k">break</span>
+        <span class="n">index</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">firstWord</span><span class="p">[</span><span class="n">index</span><span class="p">:]</span>
+</code></pre></div></div>
+
+<h3 id="7-group-anagrams">7. Group Anagrams</h3>
+<p>Given an array of strings strs, group the anagrams together. You can return the answer in any order.</p>
+
+<p>An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">longestCommonPrefix</span><span class="p">(</span><span class="n">strs</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+
+
+</code></pre></div></div>
 
 
       <style>
