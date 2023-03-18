@@ -58,8 +58,6 @@ For coding, I did:
 - the course [Grokking the coding interview](https://www.educative.io/courses/grokking-the-coding-interview) on educative.io
 - lots of problems (~200) on [leetcode](https://leetcode.com) and [binarysearch](https://binarysearch.com/)
 
-I have realized that I will probably need to interview again in a few years if I want to stay close to market rate, so I am compiling every coding question I find important enough on [this beautiful Notion page](https://hollow-wood-560.notion.site/Coding-questions-FAANG-prep-9cdf280e5f30425fa188cbbaa6d1998c). Take a look if you want some ispiration on what problems give you a high ROI. 
-
 For ML related knowledege, I did:
 
 - revision of standard topics using the book "Introduction to statistical learning" by Hastie et al.
@@ -154,7 +152,7 @@ I know I completly bombed the optimization questions and I did reasonably well o
 
 The day after my manager call, I had the offer! I will call Snap's offer **S**. 
 This offer was quite competitive with the Meta one given the location. The initial offer was **S** = **M** - 20k€. 
-Still, I believed that they could something more. During the offer discussion with my recruiter, I expressed the fact that the offer has a very low base salary and no sign on. The recruiter seemed understanding, I was able to get it up to **S** = **M* - 15k€.
+Still, I believed that they could something more. During the offer discussion with my recruiter, I expressed the fact that the offer has a very low base salary and no sign on. The recruiter seemed understanding, I was able to get it up to **S** = **M** - 15k€.
 
 I honestly expected a bigger increase, but according to my recruiter nothing more could be done about it. I really liked the team so I asked for a few more days to think about it.
 
