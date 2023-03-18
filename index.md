@@ -17,26 +17,18 @@ This website is about learning and sharing. You will find book(s) I am currently
 I am interested broadly in ML topics, finance and all things algorithmic. I like probability a lot, which ties all my interests together quite nicely! 
 
 # What's this website about? 
-In this website, I will be writing about: 
-- Coding interview resources: [passing coding interviews](./coding/codingInterviews.html)
+In this website, I will be mainly sharing things I am learning in my free time.
 
 - System desisgn resources:
     - [Grokking the system design course notes](./systems/SysDesign/SysDesign.html)
     - [Design data intensive applications notes](./systems/SysDesign/DDIA.html)
-    - [Building microservices: Designing fine-grained systems notes](./systems/SysDesign/Microservices.html)
-
-- Machine Learning notes: 
-    - [Geometric deep learning](./Geometric/geo1.html)
+    - [Machine learning System design notes](./systems/SysDesign/ml.html)
 
 
 All this resources are mainly for my own learning, but I figured It'd be good to share them in the public. In this way, I have something to keep myself in check and I can get some nice discussions going with interesting people. 
 
 # Machine learning at scale
 I started a newsletter called [Machine learning at scale](www.machinelearningatscale.com) where I discuss how Machine learning systems are used in the real world.
-
-<p align="center">
-<iframe src="https://www.machinelearningatscale.com/#/portal/signup/free" width="600" height="600" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-</p>
 
 # Blog 
 I really like writing, so I will keep a little [blog](./myblog/start_page.html) where I discuss everythig about my career, and where I will write updates about all the cool things I will be learning!
