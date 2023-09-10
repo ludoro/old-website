@@ -28,7 +28,7 @@ In this website, I will be mainly sharing things I am learning in my free time.
 All this resources are mainly for my own learning, but I figured It'd be good to share them in the public. In this way, I have something to keep myself in check and I can get some nice discussions going with interesting people. 
 
 # Machine learning at scale
-I started a newsletter called [Machine learning at scale](www.machinelearningatscale.com) where I discuss how Machine learning systems are used in the real world.
+I started a newsletter called [Machine learning at scale](https://www.machinelearningatscale.com/) where I discuss how Machine learning systems are used in the real world.
 
 # Blog 
 I really like writing, so I will keep a little [blog](./myblog/start_page.html) where I discuss everythig about my career, and where I will write updates about all the cool things I will be learning!
