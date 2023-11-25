@@ -17,7 +17,7 @@ layout: default
 Welcome! This is the first post of my blog. 
 What better way to start other than some juicy new graduate offers?
 A little caveat, I will not list my total compensation in this blog post. 
-I do not like attaching my name to some money figure publicily available on the internet. However, I will use [levels.fyi](https://levels.fyi) and ranges to give some ballpark numbers for you to better understand my negotiation position.
+I do not like attaching my name to some money figure publicly available on the internet. However, I will use [levels.fyi](https://levels.fyi) and ranges to give some ballpark numbers for you to better understand my negotiation position.
 
 The goal of this post is to showcase what's possible for EU new graduates. 
 
