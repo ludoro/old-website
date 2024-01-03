@@ -4,6 +4,8 @@ layout: default
 
 # I love the beginning of a new year! 
 
+[<img src="./../../assets/img/2024.png" width="250"/>](./../../assets/img/2024.png)
+
 # Table of Contents
 1. [Introduction](#intro)
 2. [What happened in 2023?](#2023)
