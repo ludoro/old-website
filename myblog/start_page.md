@@ -4,7 +4,14 @@ layout: default
 
 # Blog
 
+## 2024 Posts
+
+[\[2024-01\] New year new me?](./2024/new_year_new_me.html)
+
+
 ## 2023 Posts 
+
+Just chilling
 
 ## 2022 Posts
 

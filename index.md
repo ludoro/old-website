@@ -16,17 +16,6 @@ This website is about learning and sharing. You will find book(s) I am currently
 
 I am interested broadly in ML topics, finance and all things algorithmic. I like probability a lot, which ties all my interests together quite nicely! 
 
-# What's this website about? 
-In this website, I will be mainly sharing things I am learning in my free time.
-
-- System desisgn resources:
-    - [Grokking the system design course notes](./systems/SysDesign/SysDesign.html)
-    - [Design data intensive applications notes](./systems/SysDesign/DDIA.html)
-    - [Machine learning System design notes](./systems/SysDesign/ml.html)
-
-
-All this resources are mainly for my own learning, but I figured It'd be good to share them in the public. In this way, I have something to keep myself in check and I can get some nice discussions going with interesting people. 
-
 # Machine learning at scale
 I started a newsletter called [Machine learning at scale](https://www.machinelearningatscale.com/) where I discuss how Machine learning systems are used in the real world.
 
